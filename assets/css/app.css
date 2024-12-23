@@ -3388,7 +3388,6 @@ label.error {
 .discover-sec .image-container {
   border: 1px solid #92949f;
   border-radius: clamp(18px, 1.25vw, 48px);
-  padding: clamp(12px, 1.25vw, 32px);
   height: 100%;
   display: grid;
   align-items: center;
