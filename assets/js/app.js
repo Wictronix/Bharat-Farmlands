@@ -240,13 +240,13 @@ var MyScroll = "";
       }
     },
     categoryToggle: function () {
-      $(document).ready(function() {
-        $('.accordion-button').on('click', function() {
-            var index = $('.accordion-button').index(this);
-            $('.blog-card-image img').fadeOut(300);
-            $('.blog-card-image img').eq(index).delay(300).fadeIn(500);
+      $(document).ready(function () {
+        $(".accordion-button").on("click", function () {
+          var index = $(".accordion-button").index(this);
+          $(".blog-card-image img").fadeOut(300);
+          $(".blog-card-image img").eq(index).delay(300).fadeIn(500);
         });
-    });
+      });
     },
     countdownInit: function (countdownSelector, countdownTime, countdown) {
       var eventCounter = $(countdownSelector);
@@ -264,7 +264,6 @@ var MyScroll = "";
       }
     },
     formValidation: function () {
-      
       if ($(".blog-form").length) {
         $(".blog-form").validate();
       }

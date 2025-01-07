@@ -1465,7 +1465,7 @@ Elements
   height: clamp(40px, 2.5vw, 64px);
   position: fixed;
   bottom: 30px;
-  right: 30px;
+  left: 30px;
   z-index: 100;
   opacity: 0;
   transform: translateY(100px);
@@ -1476,6 +1476,28 @@ Elements
   color: #ffdf00;
   transition: all 0.3s ease-in-out;
   border: 1px solid #ffdf00;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 1000;
+}
+
+.whatsapp-icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.whatsapp-icon img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .showBtn {
@@ -2885,7 +2907,7 @@ label.error {
 }
 @media (max-width: 490px) {
   .hero-banner {
-    height: 100vh;
+    height: 54vh;
   }
 }
 .hero-banner .banner-wrapper {
@@ -3072,19 +3094,20 @@ label.error {
 }
 .hero-banner .banner-image .standard-image {
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
   z-index: 10;
-  width: 72.188vw;
+  width: 100%;
+  height: 100%;
 }
 @media (max-width: 1599px) {
   .hero-banner .banner-image .standard-image {
-    width: 70%;
+    width: 100%;
   }
 }
 @media (max-width: 1399px) {
   .hero-banner .banner-image .standard-image {
-    width: 82%;
+    width: 100%;
   }
 }
 @media (max-width: 1024px) {
@@ -3095,9 +3118,11 @@ label.error {
 .hero-banner .banner-image .standard-image-2 {
   display: none;
   position: absolute;
-  bottom: 0;
   right: 0;
+  top: 0;
   z-index: 10;
+  width: 100%;
+  height: 100%;
 }
 @media (max-width: 1024px) {
   .hero-banner .banner-image .standard-image-2 {
@@ -3107,7 +3132,7 @@ label.error {
 .hero-banner .banner-image .standard-image-3 {
   display: none;
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
   z-index: 10;
 }
