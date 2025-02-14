@@ -29,8 +29,6 @@ var MyScroll = "";
       Init.slick();
       Init.categoryToggle();
       Init.countdownInit(".countdown", "2025/08/23");
-      Init.formValidation();
-      Init.contactForm();
     },
     w: function (e) {
       if (isMobile) {
@@ -262,52 +260,6 @@ var MyScroll = "";
           );
         });
       }
-    },
-    formValidation: function () {
-      if ($(".blog-form").length) {
-        $(".blog-form").validate();
-      }
-      if ($(".contact-form").length) {
-        $(".contact-form").validate();
-      }
-    },
-    contactForm: function () {
-      $(".contact-form").on("submit", function (e) {
-        e.preventDefault();
-        if ($(".contact-form").valid()) {
-          var _self = $(this);
-          _self
-            .closest("div")
-            .find('button[type="submit"]')
-            .attr("disabled", "disabled");
-          var data = $(this).serialize();
-          $.ajax({
-            url: "./assets/mail/contact.php",
-            type: "post",
-            dataType: "json",
-            data: data,
-            success: function (data) {
-              $(".contact-form").trigger("reset");
-              _self.find('button[type="submit"]').removeAttr("disabled");
-              if (data.success) {
-                document.getElementById("message").innerHTML =
-                  "<h5 class='color-primary mt-16 mb-16'>Email Sent Successfully</h5>";
-              } else {
-                document.getElementById("message").innerHTML =
-                  "<h5 class='color-primary mt-16 mb-16'>There is an error</h5>";
-              }
-              $("#messages").show("slow");
-              $("#messages").slideDown("slow");
-              setTimeout(function () {
-                $("#messages").slideUp("hide");
-                $("#messages").hide("slow");
-              }, 4000);
-            },
-          });
-        } else {
-          return !1;
-        }
-      });
     },
   };
   Init.i();
