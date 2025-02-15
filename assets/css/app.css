@@ -3390,12 +3390,6 @@ label.error {
 .detail-container .medium-black {
   color: black !important; 
 }
-.pjto-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures the image fills the box */
-}
-
 .discover-sec .nav .nav-item .nav-link {
   background: #fafafa;
   border: 1px solid #92949f;
