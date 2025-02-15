@@ -3121,6 +3121,14 @@ label.error {
   width: 100%;
   height: 100%;
 }
+.title-text color-white fw-700 wow fadeInLeft{
+  padding-left: 250px;
+  padding-top: 250px;
+}
+.title-text text-2 color-white fw-700 wow fadeInLeft{
+  padding-left: 250px;
+  padding-top: 250px;
+}
 @media (max-width: 1599px) {
   .hero-banner .banner-image .standard-image {
     width: 100%;
