@@ -3051,6 +3051,7 @@ label.error {
   display: flex;
   align-items: center;
   gap: clamp(48px, 3.333vw, 128px);
+  margin-top: 70px;
 }
 .hero-banner .banner-wrapper .banner-content .upper-container .title-text {
   font-size: clamp(38px, 6.771vw, 180px);
@@ -3121,14 +3122,6 @@ label.error {
   width: 100%;
   height: 100%;
 }
-.title-text color-white fw-700 wow fadeInLeft{
-  padding-left: 250px;
-  padding-top: 250px;
-}
-.title-text text-2 color-white fw-700 wow fadeInLeft{
-  padding-left: 250px;
-  padding-top: 250px;
-}
 @media (max-width: 1599px) {
   .hero-banner .banner-image .standard-image {
     width: 100%;
@@ -3170,13 +3163,16 @@ label.error {
     display: block;
   }
 }
+.benefit-sec h2.medium-black {
+  color: rgb(255, 248, 220) !important;
+}
 
 .benefit-sec .benefit-container {
   display: flex;
   align-items: center;
   gap: clamp(18px, 1.25vw, 48px) !important;
   background: #fafafa;
-  border: 1px solid #92949f;
+  border: 1px solid #bdbec4;
   padding: clamp(20px, 1.667vw, 48px);
   border-radius: clamp(18px, 1.25vw, 48px);
   transition: all 0.3s ease-in-out;
@@ -3193,7 +3189,7 @@ label.error {
   gap: clamp(18px, 1.25vw, 48px) !important;
 }
 .benefit-sec .benefit-container .text-box .text-title h2 {
-  color: #ebf0f6;
+  color: #000000;
   transition: all 0.3s ease-in-out;
 }
 .benefit-sec .benefit-container .img-box {
@@ -3388,10 +3384,16 @@ label.error {
     width: 100%;
   }
 }
+.discover-sec .medium-black {
+  color: rgb(255, 248, 220) !important; 
+}
+.detail-container .medium-black {
+  color: black !important; 
+}
 .discover-sec .nav .nav-item .nav-link {
   background: #fafafa;
   border: 1px solid #92949f;
-  color: #0c0c0d;
+  color: #000000;
   font-family: "Poppins", sans-serif;
   font-size: clamp(20px, 1.198vw, 32px);
   /* 23px */
@@ -3543,6 +3545,9 @@ label.error {
   transition: all 0.3s ease-in-out;
 }
 
+.testimonials-sec .medium-black {
+  color: rgb(255, 248, 220) !important; /* Replace with your desired color */
+}
 .testimonials-sec .testimonial-block {
   display: flex;
   align-items: start;
@@ -3550,8 +3555,12 @@ label.error {
   transition: all 0.3s ease-in-out;
   padding: clamp(12px, 1.25vw, 48px);
   border-radius: clamp(18px, 1.25vw, 48px);
-  border: 1px solid #fafafa;
+  border: 1px solid #cbd9b8;
 }
+.testimonials-sec .testimonial-block p {
+  color: rgb(254, 254, 254) !important; 
+}
+
 .testimonials-sec .testimonial-block .user-image {
   display: flex;
   flex-shrink: 0;
@@ -3725,6 +3734,11 @@ label.error {
   transition: all 0.3s ease-in-out;
 }
 
+.blog-sec .medium-black {
+  color: rgb(255, 248, 220) !important; /* Replace with your desired color */
+}
+
+
 .team-sec .team-block {
   position: relative;
   overflow: hidden;
@@ -3775,7 +3789,7 @@ label.error {
 .faq-block {
   border-radius: clamp(28px, 2.5vw, 72px);
   padding: clamp(14px, 0.833vw, 24px);
-  border: 1px solid #45474f;
+  border: 1px solid #cbcdd5;
   position: relative;
   transition: all 0.3s ease-in-out;
 }
@@ -3827,6 +3841,13 @@ label.error {
     font-size: 14px;
   }
 }
+.blog-sec .accordion-collapse p {
+  color: rgb(255, 255, 255) !important;
+}
+.blog-sec .cus-arrow-btn {
+  color: snow !important; /* Replace with your desired color */
+}
+
 .faq-block .accordion-button.collapsed {
   border-radius: 0px;
   padding: 0;
