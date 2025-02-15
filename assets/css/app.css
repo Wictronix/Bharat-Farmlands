@@ -3051,7 +3051,7 @@ label.error {
   display: flex;
   align-items: center;
   gap: clamp(48px, 3.333vw, 128px);
-  margin-top: 70px;
+  margin-top: 80px;
 }
 .hero-banner .banner-wrapper .banner-content .upper-container .title-text {
   font-size: clamp(38px, 6.771vw, 180px);
@@ -3164,7 +3164,7 @@ label.error {
   }
 }
 .benefit-sec h2.medium-black {
-  color: rgb(255, 248, 220) !important;
+  color: rgb(159, 135, 37) !important;
 }
 
 .benefit-sec .benefit-container {
@@ -3385,15 +3385,15 @@ label.error {
   }
 }
 .discover-sec .medium-black {
-  color: rgb(255, 248, 220) !important; 
+  color: rgb(162, 149, 95) !important; 
 }
 .detail-container .medium-black {
-  color: black !important; 
+  color: rgb(234, 77, 77) !important; 
 }
 .discover-sec .nav .nav-item .nav-link {
   background: #fafafa;
   border: 1px solid #92949f;
-  color: #000000;
+  color: #733232;
   font-family: "Poppins", sans-serif;
   font-size: clamp(20px, 1.198vw, 32px);
   /* 23px */
@@ -3546,7 +3546,7 @@ label.error {
 }
 
 .testimonials-sec .medium-black {
-  color: rgb(255, 248, 220) !important; /* Replace with your desired color */
+  color: rgb(131, 116, 57) !important; /* Replace with your desired color */
 }
 .testimonials-sec .testimonial-block {
   display: flex;
@@ -3555,10 +3555,10 @@ label.error {
   transition: all 0.3s ease-in-out;
   padding: clamp(12px, 1.25vw, 48px);
   border-radius: clamp(18px, 1.25vw, 48px);
-  border: 1px solid #cbd9b8;
+  border: 1px solid #81a54e;
 }
 .testimonials-sec .testimonial-block p {
-  color: rgb(254, 254, 254) !important; 
+  color: rgb(198, 122, 122) !important; 
 }
 
 .testimonials-sec .testimonial-block .user-image {
@@ -3735,7 +3735,7 @@ label.error {
 }
 
 .blog-sec .medium-black {
-  color: rgb(255, 248, 220) !important; /* Replace with your desired color */
+  color: rgb(160, 147, 96) !important; /* Replace with your desired color */
 }
 
 
@@ -3842,10 +3842,10 @@ label.error {
   }
 }
 .blog-sec .accordion-collapse p {
-  color: rgb(255, 255, 255) !important;
+  color: rgb(170, 113, 113) !important;
 }
 .blog-sec .cus-arrow-btn {
-  color: snow !important; /* Replace with your desired color */
+  color: rgb(136, 81, 81) !important; /* Replace with your desired color */
 }
 
 .faq-block .accordion-button.collapsed {
