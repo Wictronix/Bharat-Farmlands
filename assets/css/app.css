@@ -4198,6 +4198,9 @@ label.error {
   transition: all 0.3s ease-in-out;
   color: #fafafa;
 }
+.solution-sec .medium-black{
+color: cornsilk !important; 
+}
 
 .sidebar form {
   position: relative;
@@ -4304,7 +4307,6 @@ label.error {
 .sidebar .category-block .tags-container li a {
   font-size: clamp(12px, 0.781vw, 20px);
 }
-
 .property-detail .property-wrapper .amenity-wrapper {
   display: flex;
   align-items: center;
